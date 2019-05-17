@@ -1,5 +1,7 @@
 import React from "react";
 
-export default () => {
-  return "hello, I'm Main";
+const Main = () => {
+  return <div className="Main">I'm Groot aka Main</div>;
 };
+
+export default Main;
